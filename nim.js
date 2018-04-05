@@ -43,12 +43,7 @@ function checkWinner () {
 }
 
 function nimEngine () {
-    if (numRocks > 3) {
-        return 4 - lastPlayerOneMove;
-    }
-    else {
-        return numRocks;
-    }
+    return 4 - lastPlayerOneMove;
 }
 
 function playTurn () {
