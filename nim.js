@@ -13,10 +13,6 @@ function printBoard () {
         board += '* ';
     }
     console.log(board);
-
-    var rows = ['', '', ''];
-    var rowLength = 7;
-    var rocksRemaning = numRocks;
 }
 
 function removeRocks (numRocksToRemove) {
